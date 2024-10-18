@@ -1,0 +1,167 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+
+% ===============================
+% Configuration du thème ModernCV
+% ===============================
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% ===============================
+% Encodage et polices
+% ===============================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% ===============================
+% Mise en page et espacement
+% ===============================
+\usepackage[scale=0.85, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.05}
+\usepackage{tabularx}
+\usepackage{enumitem}
+
+% Ajuster la largeur de la colonne des dates
+\AtBeginDocument{
+  \addtolength{\hintscolumnwidth}{1cm}
+  \setlength{\makecvtitlenamewidth}{10cm}
+}
+
+% ===============================
+% Informations personnelles
+% ===============================
+\name{First}{Last}
+\title{Head of IT}
+\address{Street Address}{City, Country}
+\phone[mobile]{+XX XX XXX XX XX}
+\email{email@example.com}
+\homepage{linkedin.com/in/example}
+\photo[56pt][0.4pt]{photo.jpg}
+
+\begin{document}
+
+\makecvtitle
+
+% ===============================
+% Professional Profile
+% ===============================
+\section{Professional Profile}
+IT professional with more than \textbf{25 years of experience} specializing in \textbf{IT management}, \textbf{system architecture}, and \textbf{project management}. Proven ability in delivering complex IT infrastructure projects, driving \textbf{digital transformation}, and aligning technology with business objectives. Experienced in managing global teams and improving operational efficiency through technological innovation. Fluent in \textbf{English}, \textbf{French}, and other languages.
+
+% ===============================
+% Skills
+% ===============================
+\section{Skills}
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{IT Strategy} & Development and execution of IT strategies that align with business goals \\
+\textbf{Digital Transformation} & Leading projects focused on innovation and workflow improvement \\
+\textbf{Infrastructure Management} & Overseeing IT infrastructure, ensuring reliability and scalability \\
+\textbf{Team Leadership} & Managing and mentoring global teams \\
+\textbf{Cybersecurity} & Implementing security measures and ensuring compliance \\
+\textbf{Vendor Management} & Managing vendor relationships, ensuring service quality \\
+\textbf{Budget Management} & Expertise in IT budgeting and resource allocation \\
+\textbf{Languages} & Native French, Fluent English, Fluent Slovak, Intermediate Hungarian \\
+\end{tabularx}
+
+% ===============================
+% Professional Experience
+% ===============================
+\section{Professional Experience}
+
+\cventry{June 2023 -- June 2024}{Head of DevOps \& Infrastructure}{\textbf{Company A}}{City, Country}{}{
+\begin{itemize}
+    \item Led and restructured the IT Infrastructure, DevOps, and Support teams, expanding the team to 20 members.
+    \item Managed IT operations, ensuring high-quality hardware and software support.
+    \item Handled IT budget, contracts, and service agreements.
+    \item Implemented ITSM and CMDB tools, improving service delivery and compliance.
+    \item Ensured IT security, implementing best practices and adhering to regulatory requirements.
+\end{itemize}
+}
+
+\cventry{Feb 2021 -- June 2023}{Team Leader, Systems Administrators Team}{\textbf{Company B}}{City, Country}{}{
+\begin{itemize}
+    \item Managed and coached a team of 5 engineers, overseeing critical IT infrastructures for research and education.
+    \item Implemented continuous improvement processes and ensured operational IT.
+    \item Managed new IT needs, deploying appropriate solutions based on user requirements.
+\end{itemize}
+}
+
+\cventry{Mar 2020 -- Aug 2020}{IT Operations Manager}{\textbf{Company C}}{City, Country}{}{
+\begin{itemize}
+    \item Led a team of 15, managed vendor relationships, and supported over 1,000 users.
+    \item Managed IT infrastructure for a new campus launch and ensured seamless integration.
+    \item Implemented remote working tools and business continuity solutions during the COVID-19 crisis.
+\end{itemize}
+}
+
+\cventry{Aug 2017 -- Mar 2020}{Change \& Problem Manager}{\textbf{Company D}}{City, Country}{}{
+\begin{itemize}
+    \item Managed change processes and resolved IT issues across all sites in the region.
+    \item Handled an IT budget of CHF 1.5 million for Backup and Object Storage projects.
+    \item Revised change management process to achieve ISO 9001 certification and align with ITIL standards.
+\end{itemize}
+}
+
+\cventry{Feb 2012 -- Jan 2014}{Team Leader}{\textbf{Company E}}{City, Country}{}{
+\begin{itemize}
+    \item Led a global team of 50 across 16 countries, managing 40,000 Windows servers.
+    \item Implemented IT security best practices, server hardening, and disaster recovery plans.
+    \item Responsible for technical training and performance management of the team.
+\end{itemize}
+}
+
+\cventry{2010 -- 2012}{EMEA IT and Security Manager}{\textbf{Company F}}{City, Country}{}{
+\begin{itemize}
+    \item Developed IT strategy across multiple sites, overseeing infrastructures, software, and support services.
+    \item Managed security protocols, audits, and GDPR compliance.
+    \item Supervised a team of 15 IT professionals across the region.
+\end{itemize}
+}
+
+\cventry{Jul 2008 -- Jan 2010}{IT Manager, Headquarters}{\textbf{Company G}}{City, Country}{}{
+\begin{itemize}
+    \item Managed IT operations for the headquarters, serving 600 users.
+    \item Led an expansion project involving server room creation and PBX systems.
+    \item Managed the IT budget, contracts, and key projects.
+\end{itemize}
+}
+
+% ===============================
+% Education
+% ===============================
+\section{Education}
+\cventry{1999 -- 2001}{\textbf{Higher Technician Certificate in Maintenance and Microcomputer Services}}{\textbf{Institution A}}{City, Country}{}{}
+
+% ===============================
+% Certifications
+% ===============================
+\section{Certifications}
+\cvitem{2024}{\textbf{Agile Explorer}, Organization A}
+\cvitem{2024}{\textbf{Cybersecurity Fundamentals}, Organization B}
+\cvitem{2024}{\textbf{Ethical Hacker}, Organization C}
+\cvitem{2024 -- 2026}{\textbf{Certified Associate in Cybersecurity}, Organization D}
+\cvitem{2024}{\textbf{Introduction to Cybersecurity}, Organization C}
+\cvitem{2016}{\textbf{Cloud Practitioner Essentials}, Organization E}
+\cvitem{2016}{\textbf{Virtualization Fundamentals}, Organization F}
+\cvitem{2015}{\textbf{Backup Recovery Systems and Architecture}, Organization G}
+\cvitem{2014}{\textbf{ITIL Foundation Certificate in IT Service Management}, Organization H}
+\cvitem{2011}{\textbf{Six Sigma: Yellow \& Green Belts}, Organization I}
+
+% ===============================
+% Languages
+% ===============================
+\section{Languages}
+\cvitem{Language A}{Native speaker}
+\cvitem{Language B}{Fluent}
+\cvitem{Language C}{Fluent}
+\cvitem{Language D}{Intermediate}
+\cvitem{Language E}{Beginner}
+
+% ===============================
+% References
+% ===============================
+\section{References}
+Available upon request.
+
+\end{document}
