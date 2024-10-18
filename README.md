@@ -43,7 +43,7 @@ To use this template, ensure you have the following installed:
    To get started, clone this repository using:
 
    ```bash
-   git clone https://github.com/yourusername/latex-cv-template.git
+   git clone https://github.com/cluster2600/latex_cv.git
    ```
 
 2. **Navigate to the Directory**
@@ -51,7 +51,7 @@ To use this template, ensure you have the following installed:
    Navigate to the project directory:
 
    ```bash
-   cd latex-cv-template
+   cd latex_cv
    ```
 
 3. **Open the Template**
@@ -146,4 +146,21 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ---
 
-
+Name    
+Latest commit
+cluster2600
+cluster2600
+Update README.md
+b741d6a
+ · 
+1 minute ago
+History
+LICENSE
+Initial commit
+37 minutes ago
+README.md
+Update README.md
+1 minute ago
+cv_template.tex
+Create cv_template.tex
+21 minutes ago
