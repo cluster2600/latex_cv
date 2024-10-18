@@ -42,20 +42,21 @@ To use this template, ensure you have the following installed:
 
    To get started, clone this repository using:
 
-git clone https://github.com/yourusername/latex-cv-template.git
-
+   ```bash
+   git clone https://github.com/yourusername/latex-cv-template.git
+   ```
 
 2. **Navigate to the Directory**
 
-Navigate to the project directory:
+   Navigate to the project directory:
 
-
-cd latex-cv-template
-
+   ```bash
+   cd latex-cv-template
+   ```
 
 3. **Open the Template**
 
-Open the `cv.tex` file in your LaTeX editor or IDE of choice.
+   Open the `cv_template.tex` file in your LaTeX editor or IDE of choice.
 
 ## Usage
 
@@ -65,29 +66,17 @@ To compile the LaTeX file and generate a PDF:
 
 - **Using Command Line**: Run the following command:
 
-
-3. **Open the Template**
-
-Open the `cv.tex` file in your LaTeX editor or IDE of choice.
-
-## Usage
-
-### Compiling the CV
-
-To compile the LaTeX file and generate a PDF:
-
-- **Using Command Line**: Run the following command:
-
-pdflatex cv.tex
-
+  ```bash
+  pdflatex cv_template.tex
+  ```
 
 - **Using LaTeX Editor**: Use the compile or build function provided by your editor.
 
-- **Using Overleaf**: Upload `cv.tex` to Overleaf, and it will compile automatically.
+- **Using Overleaf**: Upload `cv_template.tex` to Overleaf, and it will compile automatically.
 
 ### Customizing the CV
 
-To customize your CV, edit the `cv.tex` file with your personal information and preferences.
+To customize your CV, edit the `cv_template.tex` file with your personal information and preferences.
 
 #### Personal Information
 
@@ -143,8 +132,8 @@ Optionally include references or state that they are available upon request.
 - **LaTeX Documentation**: Visit the [LaTeX Project](https://www.latex-project.org/help/documentation/) for complete documentation and help.
 - **ModernCV Documentation**: Refer to [CTAN ModernCV](https://ctan.org/pkg/moderncv) for more information about the moderncv package.
 - **Overleaf Guides**:
-- [LaTeX Tutorials](https://www.overleaf.com/learn/latex/Tutorials)
-- [CV Template Examples](https://www.overleaf.com/latex/templates/tagged/cv)
+  - [LaTeX Tutorials](https://www.overleaf.com/learn/latex/Tutorials)
+  - [CV Template Examples](https://www.overleaf.com/latex/templates/tagged/cv)
 
 ## License
 
@@ -157,5 +146,4 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ---
 
-Feel free to customize and enhance this template to suit your needs. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
