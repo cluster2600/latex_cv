@@ -1,0 +1,63 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+
+% ===============================
+% Configuration du thème ModernCV
+% ===============================
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% ===============================
+% Encodage et polices
+% ===============================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% ===============================
+% Mise en page et espacement
+% ===============================
+\usepackage[scale=0.85, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.05}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{etoolbox}
+
+\input{cv_versions.tex}
+
+% Select the CV version to use ("devops" or "it-management")
+\cvversion{it-management}
+
+
+% Ajuster la largeur de la colonne des dates
+\AtBeginDocument{
+  \addtolength{\hintscolumnwidth}{1cm}
+  \setlength{\makecvtitlenamewidth}{10cm}
+}
+
+% ===============================
+% Informations personnelles
+% ===============================
+\name{First}{Last}
+\title{Head of IT}
+\address{Street Address}{City, Country}
+\phone[mobile]{+XX XX XXX XX XX}
+\email{email@example.com}
+\homepage{linkedin.com/in/example}
+\photo[56pt][0.4pt]{photo.jpg}
+
+\begin{document}
+
+\makecvtitle
+
+\input{profile.tex}
+\input{skills.tex}
+\input{experience.tex}
+\input{education.tex}
+\input{certifications.tex}
+\input{languages.tex}
+\input{references.tex}
+\input{keywords.tex}
+
+\end{document}
