@@ -1,0 +1,38 @@
+name: Build LaTeX CV
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up LaTeX
+        uses: xu-cheng/setup-texlive-action@v2
+        with:
+          packages: >-
+            moderncv
+            xcolor
+            tabularx
+            enumitem
+            setspace
+            geometry
+            babel-english
+            fontawesome5
+
+      - name: Compile LaTeX
+        run: |
+          pdflatex cv_template.tex
+          pdflatex cv_template.tex
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: cv
+          path: cv_template.pdf
