@@ -7,12 +7,11 @@
 *.xdv
 *.synctex.gz
 
-# Personal data - never commit
-photo.jpg
-photo.png
-*.jpg
-*.png
+# Personal photos - never commit real photos
+# photo.jpg is the AI-generated placeholder (safe to commit)
+# Replace with your real photo LOCALLY only (add to local .gitignore or gitignore_local)
 
-# Generated PDFs (optional - comment out if you want to track)
-# *.pdf
-
+# Backup/personal variants
+photo_real.jpg
+photo_perso.jpg
+maxime.jpg
