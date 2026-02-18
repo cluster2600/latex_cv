@@ -1,0 +1,18 @@
+# Build artifacts
+*.aux
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+*.xdv
+*.synctex.gz
+
+# Personal data - never commit
+photo.jpg
+photo.png
+*.jpg
+*.png
+
+# Generated PDFs (optional - comment out if you want to track)
+# *.pdf
+
